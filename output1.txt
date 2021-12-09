@@ -1,0 +1,13 @@
+
+
+
+Title: MyTitle
+
+List of stuff
+        dev1 is cool
+        dev2 is not cool
+        dev3 is cool
+
+
+
+See here about newline/whitespace control: https://tedboy.github.io/jinja2/templ6.html

@@ -1,0 +1,18 @@
+
+{% block content %}
+
+Title: {{ data.title }}
+
+List of stuff
+{%- for d in data.devices %}
+    {%- if d.iscool %}
+        {{ d.name }} is cool
+    {%- else %}
+        {{ d.name }} is not cool
+    {%- endif -%}
+{% endfor %}
+
+{% endblock %}
+
+See here about newline/whitespace control: https://tedboy.github.io/jinja2/templ6.html
+The "-" are important for this.
